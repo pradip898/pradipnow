@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.top {
+  background-color: #041C32;
+}
+
+
+.border {
+  width: 10%;
+  border-top-style: dotted;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-color: #469970;
+  margin: 10px auto;
+}
+
+.middle {
+  background-color: #15314c;
+}
+
+h1 {
+  padding-top: 130px;
+  font-size: 5rem;
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  color: #30E3CA;
+}
+
+.intro {
+  width: 50%;
+  line-height: 1.75;
+  margin-bottom: 30px;
+}
+
+.skill {
+  margin: 10px auto 10px auto;
+}
+
+.my-skill {
+  margin: 70px auto 5px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 120px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+/* COMBAK: All FONT here */
+p {
+  font-family: 'Merriweather', serif;
+  color: #E4F9F5;
+  line-height: 1.75;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #30E3CA;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.intro {
+  margin: 15px auto 25px;
+  padding: 0 20%;
+}
+
+/* COMBAK: All IMAGE here */
+.profile {
+  border-radius: 50%;
+  width: 15%;
+  height: 15%;
+  margin: 50px auto 10px auto;
+}
+
+.element {
+  width: 50%;
+  height: 50%;
+  margin: 10px auto 0;
+}
+
+.web-img {
+  width: 25%;
+  height: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.coding-img {
+  width: 25%;
+  height: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 200px;
+  display: block;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+
+.icon-holder {
+  position: absolute;
+  background-color: #041C32;
+  right: 0px;
+}
+
+/* COMBAK: contact me page */
+.contact-message {
+  margin-bottom: 50px;
+  margin: 4em auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.bottom-container {
+  background-color: #041C32;
+  margin-top: 3em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+.footer-link {
+display: inline-block;
+margin-right: 20px;
+margin-bottom: 30px;
+}
+a {
+  color: #ECB365;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 44;
+  -moz-border-radius: 44;
+  border-radius: 44px;
+  -webkit-box-shadow: 0px 1px 4px #666666;
+  -moz-box-shadow: 0px 1px 4px #666666;
+  box-shadow: 0px 1px 4px #666666;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 27px;
+  padding: 10px 20px 11px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #4ea9e6);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #4ea9e6);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #4ea9e6);
+  background-image: -o-linear-gradient(top, #3cb0fd, #4ea9e6);
+  background-image: linear-gradient(to bottom, #3cb0fd, #4ea9e6);
+  text-decoration: none;
+}
